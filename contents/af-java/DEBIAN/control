@@ -1,0 +1,8 @@
+Package: af-java
+Version: 1
+Section: main
+Priority: optional
+Architecture: all
+Depends: eclipse, openjdk-6-jre-headless
+Maintainer: Flynn Milligan
+Description: Aerofoil Java packages
