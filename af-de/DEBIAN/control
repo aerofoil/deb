@@ -1,0 +1,8 @@
+Package: af-de
+Version: 1
+Section: main
+Priority: optional
+Architecture: all
+Depends: cb-compositor, i3, nitrogen
+Maintainer: Flynn Milligan
+Description: Aerofoil desktop environment
