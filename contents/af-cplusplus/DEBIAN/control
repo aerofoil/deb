@@ -1,0 +1,8 @@
+Package: af-cplusplus
+Version: 1
+Section: main
+Priority: optional
+Architecture: all
+Depends: codeblocks, gcc
+Maintainer: Quinn Vinlove
+Description: Aerofoil C++ development tools
