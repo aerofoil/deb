@@ -1,0 +1,8 @@
+Package: af-cad
+Version: 1
+Section: main
+Priority: optional
+Architecture: all
+Depends: arduino, eagle, fritzing, openscad, wings3d
+Maintainer: Flynn Milligan
+Description: Aerofoil computer-aided design packages
