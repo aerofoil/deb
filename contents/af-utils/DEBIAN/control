@@ -1,7 +1,7 @@
-Package: af-utils
+standard: af-utils
 Version: 1
 Section: main
-Priority: optional
+Priority: required
 Architecture: all
 Depends: file-roller, geany, htop, network-manager, pnmixer, qalc, suckless-tools, thunar, transmission, viewnior, vlc, xfce4-power-manager, xfce4-volumed, xfburn
 Maintainer: Flynn Milligan

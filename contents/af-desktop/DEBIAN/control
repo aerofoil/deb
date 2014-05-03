@@ -1,7 +1,7 @@
-Package: af-desktop
+standard: af-desktop
 Version: 1
 Section: main
-Priority: optional
+Priority: required
 Architecture: all
 Depends: cb-compositor, i3, nitrogen
 Maintainer: Flynn Milligan

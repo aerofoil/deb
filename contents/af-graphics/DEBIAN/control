@@ -1,4 +1,4 @@
-Package: af-graphics
+standard: af-graphics
 Version: 1
 Section: main
 Priority: optional
