@@ -1,8 +1,8 @@
-standard: af-cpp
-Version: 1
-Section: main
-Priority: optional
-Architecture: all
-Depends: codeblocks, gcc
-Maintainer: Quinn Vinlove
-Description: Aerofoil C++ development tools
+package: af-cpp
+version: 1
+section: main
+priority: optional
+architecture: all
+suggests: codeblocks, gcc
+maintainer: Quinn Vinlove
+description: Aerofoil C++ development tools

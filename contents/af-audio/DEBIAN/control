@@ -1,8 +1,8 @@
-Package: af-audio
-Version: 1
-Section: main
-Priority: optional
-Architecture: all
-Depends: audacity, banshee, cmus
-Maintainer: Flynn Milligan
-Description: Aerofoil audio players and tools
+package: af-audio
+version: 1
+section: main
+priority: optional
+architecture: all
+suggests: audacity, banshee, cmus
+maintainer: Flynn Milligan
+description: Aerofoil audio players and tools

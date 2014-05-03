@@ -1,8 +1,8 @@
-standard: af-cad
-Version: 1
-Section: main
-Priority: optional
-Architecture: all
-Depends: arduino, eagle, fritzing, openscad, wings3d
-Maintainer: Flynn Milligan
-Description: Aerofoil computer-aided design packages
+package: af-cad
+version: 1
+section: main
+priority: optional
+architecture: all
+suggests: arduino, eagle, fritzing, openscad, wings3d
+maintainer: Flynn Milligan
+description: Aerofoil computer-aided design packages

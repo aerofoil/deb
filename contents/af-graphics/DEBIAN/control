@@ -1,8 +1,8 @@
-standard: af-graphics
-Version: 1
-Section: main
-Priority: optional
-Architecture: all
-Depends: darktable, gimp, inkscape, ufraw
-Maintainer: Flynn Milligan
-Description: Aerofoil photography and graphics tools
+package: af-graphics
+version: 1
+section: main
+priority: optional
+architecture: all
+suggests: darktable, gimp, inkscape, ufraw
+maintainer: Flynn Milligan
+description: Aerofoil photography and graphics tools

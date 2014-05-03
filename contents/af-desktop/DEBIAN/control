@@ -1,8 +1,8 @@
-standard: af-desktop
-Version: 1
-Section: main
-Priority: required
-Architecture: all
-Depends: cb-compositor, i3, nitrogen
-Maintainer: Flynn Milligan
-Description: Aerofoil desktop environment
+package: af-desktop
+version: 1
+section: main
+priority: required
+architecture: all
+suggests: cb-compositor, i3, nitrogen
+maintainer: Flynn Milligan
+description: Aerofoil desktop environment

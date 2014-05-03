@@ -1,8 +1,8 @@
-standard: af-utils
-Version: 1
-Section: main
-Priority: required
-Architecture: all
-Depends: file-roller, geany, htop, network-manager, pnmixer, qalc, suckless-tools, thunar, transmission, viewnior, vlc, xfce4-power-manager, xfce4-volumed, xfburn
-Maintainer: Flynn Milligan
-Description: Aerofoil utilities
+package: af-utils
+version: 1
+section: main
+priority: required
+architecture: all
+suggests: file-roller, geany, htop, network-manager, pnmixer, qalc, suckless-tools, thunar, transmission, viewnior, vlc, xfce4-power-manager, xfce4-volumed, xfburn
+maintainer: Flynn Milligan
+description: Aerofoil utilities
