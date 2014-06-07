@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: optional
 architecture: all
-suggests: audacity, banshee, cmus
+depends: audacity, banshee, cmus
 maintainer: Flynn Milligan
 description: Aerofoil audio players and tools
