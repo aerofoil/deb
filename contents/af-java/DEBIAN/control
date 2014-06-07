@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: optional
 architecture: all
-suggests: eclipse, openjdk-6-jre-headless
+depends: eclipse, openjdk-6-jre-headless
 maintainer: Flynn Milligan
 description: Aerofoil Java packages

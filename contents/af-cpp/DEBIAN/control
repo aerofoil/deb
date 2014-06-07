@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: optional
 architecture: all
-suggests: codeblocks, gcc
+depends: codeblocks, gcc
 maintainer: Quinn Vinlove
 description: Aerofoil C++ development tools

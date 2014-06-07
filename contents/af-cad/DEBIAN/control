@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: optional
 architecture: all
-suggests: arduino, eagle, fritzing, openscad, wings3d
+depends: arduino, eagle, fritzing, openscad, wings3d
 maintainer: Flynn Milligan
 description: Aerofoil computer-aided design packages

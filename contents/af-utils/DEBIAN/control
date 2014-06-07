@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: required
 architecture: all
-suggests: file-roller, geany, htop, network-manager, pnmixer, qalc, suckless-tools, thunar, transmission, viewnior, vlc, xfce4-power-manager, xfce4-volumed, xfburn
+depends: file-roller, geany, htop, network-manager, pnmixer, qalc, suckless-tools, thunar, transmission, viewnior, vlc, xfce4-power-manager, xfce4-volumed, xfburn
 maintainer: Flynn Milligan
 description: Aerofoil utilities

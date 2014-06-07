@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: optional
 architecture: all
-suggests: darktable, gimp, inkscape, ufraw
+depends: darktable, gimp, inkscape, ufraw
 maintainer: Flynn Milligan
 description: Aerofoil photography and graphics tools
