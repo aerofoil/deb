@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: required
 architecture: all
-depends: cb-compositor, i3, nitrogen
+depends: i3, nitrogen
 maintainer: Flynn Milligan
 description: Aerofoil desktop environment
