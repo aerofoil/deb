@@ -4,10 +4,10 @@
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Setup - The basics of getting started with i3](#setup)
-    * [What i3 affects](#what-i3-affects)
+3. [Setup - The basics of getting started with Aerofoil-Debs](#setup)
+    * [What Aerofoil-Debs affects](#what-Aerofoil-Debs-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with i3](#beginning-with-i3)
+    * [Beginning with Aerofoil-Debs](#beginning-with-Aerofoil-Debs)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
@@ -29,7 +29,7 @@ management, etc.) this is the time to mention it.
 
 ## Setup
 
-### What i3 affects
+### What Aerofoil-Debs affects
 
 * A list of files, packages, services, or operations that the module will alter,
   impact, or execute on the system it's installed on.
@@ -41,7 +41,7 @@ management, etc.) this is the time to mention it.
 If your module requires anything extra before setting up (pluginsync enabled,
 etc.), mention it here.
 
-### Beginning with i3
+### Beginning with Aerofoil-Debs
 
 The very basic steps needed for a user to get the module up and running.
 
