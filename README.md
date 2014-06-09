@@ -1,73 +1,42 @@
-# Aerofoil-Debs
+Aerofoil Debian packages
+---
 
-#### Table of Contents
-
-1. [Overview](#overview)
-2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Setup - The basics of getting started with Aerofoil-Debs](#setup)
-    * [List of Packages](#list-of-packages)
-    * [Beginning with Aerofoil-Debs](#beginning-with-aerofoil-Debs)
-4. [Usage - Configuration options and additional functionality](#usage)
-5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-6. [Limitations - OS compatibility, etc.](#limitations)
-7. [Development - Guide for contributing to the module](#development)
-8. [Development - List of Contributors](#contributors)
+0. [overview](#overview)
+0. [getting started with Aerofoil Debian packages](#getting-started)
+0. [list of packages](#packages)
+0. [system requirements](#requirements)
+0. [development reference](#reference)
+0. [contributors](#contributors)
 
 ## Overview
 
-Source control files for creating Debian metapackages to be used with Aerofoil.
+This repository contains several metapackages (and their contents) for setting up an Aerofoil system. Each package installs a set of applications and can be selectively installed based upon need.
 
-## Module Description
+## list of packages
 
-This repo contains several metapackages for setting up an Aerofoil system.
+* af-audio: audio packages
+* af-cad: Computer Aided Drafting and Design packages
+* af-cpp: C++ development tools
+* af-desktop: i3 and other elements of the Aerofoil desktop environment
+* af-graphics: photography and graphic design packages
+* af-java: Java development tools
+* af-utils: common utilities
 
-Each package will install a set of applications, and can be selectively
-installed based upon need.
+## system requirements
 
-## Setup
+Debian packages may only be installed on APT-based distributions (Debian, Aerofoil, Ubuntu, CrunchBang, et al.).
 
-### List of Packages
+## development reference
 
-* af-audio: Installs audio packages
-* af-cad: Installs Computer Aided Drafting and Design applications
-* af-cpp: Installs C++ development tools
-* af-desktop: Installs the default Aerofoil window manager, i3WM
-* af-graphics: Installs artwork packages for Aerofoil
-* af-java: Installs Java development tools
-* af-utils: Installs desktop utilities for Aerofoil.
+All development is done in feature branches so that the master branch is kept as stable as possible. If you would like to contribute, please refer to [the relevant documentation]().
 
-### Beginning with Aerofoil-Debs
+Metapackages are created based upon [Ubuntu's documentation](https://help.ubuntu.com/community/MetaPackages).
 
-Setup is easy. Simply install the .deb packages on your system.
-
-## Usage
-
-Put the classes, types, and resources for customizing, configuring, and doing
-the fancy stuff with your module here.
-
-## Reference
-Metapackages are created based upon [Ubuntu's
-documentation.](https://help.ubuntu.com/community/MetaPackages)
-
-Many scripts are based upon [Crunchbang Linux](http://crunchbang.org/)'s
-configurations.
-
-## Limitations
-
-This repo requires a Debian-based OS.
-Ubuntu, Debian, Crunchbang linux are all supported out of the box.
-
-## Development
-
-All development is done in a feature branch, so that the master branch is kept
-as stable as possible.
-
-If you would like to contribute, please feel free to refer to our Contributing
-documentation.
+Many configurations and defaults are based upon those of [Crunchbang Linux](http://crunchbang.org/).
 
 ## Contributors
 
-| Name            |  Duty                             |
-|-----------------|-----------------------------------|
-| Flynn Milligan  | Creator                           |
-| Tom Swartz      | Package Management, Documentation |
+| Name           |  Duty                                 |
+|----------------|---------------------------------------|
+| Flynn Milligan | creator                               |
+| Tom Swartz     | package maintenance and documentation |
