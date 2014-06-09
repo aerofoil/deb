@@ -5,13 +5,13 @@
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
 3. [Setup - The basics of getting started with Aerofoil-Debs](#setup)
-    * [What Aerofoil-Debs affects](#what-Aerofoil-Debs-affects)
-    * [Setup requirements](#setup-requirements)
-    * [Beginning with Aerofoil-Debs](#beginning-with-Aerofoil-Debs)
+    * [What Aerofoil-Debs affects](#list-of-packages)
+    * [Beginning with Aerofoil-Debs](#beginning-with-aerofoil-Debs)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Development - Guide for contributing to the module](#development)
+6. [Limitations - OS compatibility, etc.](#limitations)
+7. [Development - Guide for contributing to the module](#development)
+8. [Development - List of Contributors](#contributors)
 
 ## Overview
 
@@ -19,35 +19,26 @@ Source control files for creating Debian metapackages to be used with Aerofoil.
 
 ## Module Description
 
-If applicable, this section should have a brief description of the technology
-the module integrates with and what that integration enables. This section
-should answer the questions: "What does this module *do*?" and "Why would I use
-it?"
+This repo contains several metapackages for setting up an Aerofoil system.
 
-If your module has a range of functionality (installation, configuration,
-management, etc.) this is the time to mention it.
+Each package will install a set of applications, and can be selectively
+installed based upon need.
 
 ## Setup
 
-### What Aerofoil-Debs affects
+### List of Packages
 
-* A list of files, packages, services, or operations that the module will alter,
-  impact, or execute on the system it's installed on.
-* This is a great place to stick any warnings.
-* Can be in list or paragraph form.
-
-### Setup Requirements **OPTIONAL**
-
-If your module requires anything extra before setting up (pluginsync enabled,
-etc.), mention it here.
+* af-audio: Installs audio packages
+* af-cad: Installs Computer Aided Drafting and Design applications
+* af-cpp: Installs C++ development tools
+* af-desktop: Installs the default Aerofoil window manager, i3WM
+* af-graphics: Installs artwork packages for Aerofoil
+* af-java: Installs Java development tools
+* af-utils: Installs desktop utilities for Aerofoil.
 
 ### Beginning with Aerofoil-Debs
 
-The very basic steps needed for a user to get the module up and running.
-
-If your most recent release breaks compatibility or requires particular steps
-for upgrading, you may wish to include an additional section here: Upgrading
-(For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
+Setup is easy. Simply install the .deb packages on your system.
 
 ## Usage
 
@@ -55,23 +46,27 @@ Put the classes, types, and resources for customizing, configuring, and doing
 the fancy stuff with your module here.
 
 ## Reference
+Metapackages are created based upon [Ubuntu's
+documentation.](https://help.ubuntu.com/community/MetaPackages)
 
-Here, list the classes, types, providers, facts, etc contained in your module.
-This section should include all of the under-the-hood workings of your module so
-people know what the module is touching on their system but don't need to mess
-with things. (We are working on automating this section!)
+Many scripts are based upon [Crunchbang Linux](http://crunchbang.org/)'s
+configurations.
 
 ## Limitations
 
-This is where you list OS compatibility, version compatibility, etc.
+This repo requires a Debian-based OS.
+Ubuntu, Debian, Crunchbang linux are all supported out of the box.
 
 ## Development
 
-Since your module is awesome, other users will want to play with it. Let them
-know what the ground rules for contributing are.
+All development is done in a feature branch, so that the master branch is kept
+as stable as possible.
 
-## Release Notes/Contributors/Etc **Optional**
+If you would like to contribute, please feel free to refer to our Contributing
+documentation.
 
-If you aren't using changelog, put your release notes here (though you should
-consider using changelog). You may also add any additional sections you feel are
-necessary or important to include here. Please use the `## ` header.
+## Contributors
+
+Flynn Milligan - Creator
+Tom Swartz - Package Management, Documentation
+
