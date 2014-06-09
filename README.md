@@ -67,6 +67,7 @@ documentation.
 
 ## Contributors
 
-* Flynn Milligan - Creator
-* Tom Swartz - Package Management, Documentation
-
+| Name            |  Duty                             |
+|-----------------|-----------------------------------|
+| Flynn Milligan  | Creator                           |
+| Tom Swartz      | Package Management, Documentation |
