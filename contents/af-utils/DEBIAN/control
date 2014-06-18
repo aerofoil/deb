@@ -3,6 +3,6 @@ version: 1
 section: main
 priority: required
 architecture: all
-depends: file-roller, geany, git, htop, network-manager, pulseaudio, qalc, suckless-tools, pcmanfm, transmission, viewnior, vlc, xorriso
+depends: alsa, file-roller, geany, git, htop, network-manager, pulseaudio, qalc, suckless-tools, pcmanfm, transmission, viewnior, vlc, xorriso
 maintainer: Flynn Milligan
 description: Aerofoil utilities
