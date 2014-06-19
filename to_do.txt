@@ -34,3 +34,6 @@ All packages must be open-source and signed
 			a. 	http://blog.jonliv.es/2011/04/26/creating-your-own-signed-apt-repository-and-debian-packages/
 			b.	https://wiki.debian.org/Packaging
 			c.	http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/gpg-cs.html
+	3.	We need a web accessable repo and that can easily be done using rsync 
+		reprepro http://mirrorer.alioth.debian.org/
+
