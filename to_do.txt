@@ -24,11 +24,11 @@ All packages must be open-source and signed
 			spacefm for distribution, except that I audit the code and sign it.
 	2. Which bring me to signing it. I have a closely guarded package called 
 		pibang-keyring that installs my PERSONAL gpg public key as an authorized
-		key on all pibnag systems. Without access to my build server AND my 
+		key on all pibang systems. Without access to my build server AND my 
 		password you CANNOT build a package that is installable without a scary 
 		warning. If I had more devs I would add their personal GPG keys to the 
 		keyring and give them upload access. Alternativly I could take their source, 
-		build it, and then sign it. Either way. Their MUST be a signed key and 
+		build it, and then sign it. Either way. There MUST be a signed key and 
 		signed packages. non-negotiable. 
 		Great sources for more info are available at:
 			a. 	http://blog.jonliv.es/2011/04/26/creating-your-own-signed-apt-repository-and-debian-packages/
