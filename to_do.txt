@@ -1,0 +1,36 @@
+This is a to-do list to bring all of our packages up to the open standards 
+that a Debian based distro is expected to have. This document can be freely
+deleted when it is no longer useful.
+
+This Document was created by Super-Nathan. 
+
+
+All packages must be open-source and signed
+	1. 	open source means all source must be available somewhere, I recomend 
+		github. My recomendation is than ALL packages have a seperate repo on 
+		on github. Then the actual .deb's can be amassed into a repository.
+		a.	This means that the PRE dpkg-buildpackage source be uploaded into 
+			a seperate repo. 
+		B.	The perfect example of this is: 
+			https://github.com/super-nathan/wumpus-monster
+			on any Debian system you can clone into the github repo and build this
+			package fromsource and then use dpkg -i to install the package. This
+			is the Debian way.
+		c.	I am not saying this is the "right" way, bit it IS
+			the right way for a Debian based distro. 
+		d. 	A more elegant example is: https://github.com/IgnorantGuru/spacefm
+			which includes in the "distros" folder all that is needed to build
+			debian packages from source. PiBang uses this EXACT source to build
+			spacefm for distribution, except that I audit the code and sign it.
+	2. Which bring me to signing it. I have a closely guarded package called 
+		pibang-keyring that installs my PERSONAL gpg public key as an authorized
+		key on all pibnag systems. Without access to my build server AND my 
+		password you CANNOT build a package that is installable without a scary 
+		warning. If I had more devs I would add their personal GPG keys to the 
+		keyring and give them upload access. Alternativly I could take their source, 
+		build it, and then sign it. Either way. Their MUST be a signed key and 
+		signed packages. non-negotiable. 
+		Great sources for more info are available at:
+			a. 	http://blog.jonliv.es/2011/04/26/creating-your-own-signed-apt-repository-and-debian-packages/
+			b.	https://wiki.debian.org/Packaging
+			c.	http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/gpg-cs.html
