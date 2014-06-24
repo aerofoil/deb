@@ -16,7 +16,7 @@ All packages must be open-source and signed
 			on any Debian system you can clone into the github repo and build this
 			package from source with `dpkg-buildpackage` and then use `dpkg -i` 
 			to install the package. This is the Debian way.
-		c.	I am not saying this is the "right" way, bit it IS
+		c.	I am not saying this is the "right" way, but it IS
 			the right way for a Debian based distro. 
 		d. 	A more elegant example is: https://github.com/IgnorantGuru/spacefm
 			which includes in the "distros" folder all that is needed to build
